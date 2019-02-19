@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="/assets/css/bulma.min.css" />
     <link rel="stylesheet" href="style.css" />
     <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js"></script>
+    <script src="/assets/js/collapse-menu.js"></script>
 </head>
 
 <body>
@@ -74,9 +75,6 @@
     <div class="header-banner">
         <section class="section">
             <div class="container">
-              <div class="header-banner__text-wrapper">
-                  <h1>Campus Unifor</h1>
-              </div>
               <video class="header-banner__image" loop muted autoplay>
                 <source src="/assets/videos/banner-cabecalho-programacao-ferias-julho-2018-unifor.mp4" type="video/mp4">
               </video>
@@ -87,8 +85,8 @@
     <section class="section">
         <div class="container has-text-centered">
             <h2 class="title">O campus</h2>
-            <p>O Campus da Unifor é imenso! São mais de 720 mil metros quadrados de extensão. Logo abaixo você confere um mapa com referência aos principais blocos. 
-              Se você é aluno ou funcionário da Unifor, outra opção é baixar o aplicativo Unifor Mobile. A ferramenta, além de ser uma extensão do Unifor Online para o contexto mobile, 
+            <p>O Campus da Unifor é imenso! São mais de 720 mil metros quadrados de extensão. Logo abaixo você confere um mapa com referência aos principais blocos.
+              Se você é aluno ou funcionário da Unifor, outra opção é baixar o aplicativo Unifor Mobile. A ferramenta, além de ser uma extensão do Unifor Online para o contexto mobile,
               ainda permite que você se localize no campus ao mesmo tempo que anda por ele. Disponível nas plataformas Android e IOS.</p>
 
             <div class="columns is-centered" style="padding: 2rem">
@@ -105,127 +103,240 @@
     </section>
 
     <section class="section">
+        <div class="container">
+          <div class="card is-fullwidth">
+            <header class="card-header">
+              <p class="card-header-title">Biblioteca</p>
+              <a class="card-header-icon card-toggle">
+                <i class="fa fa-angle-down"></i>
+              </a>
+            </header>
+            <div class="card-content is-hidden">
+              <div class="content">
+                  <p>Na Unifor, você tem acesso a um dos maiores e mais qualificados acervos de universidades particulares do Estado e da região N/NE. Instalada em uma área de 5 mil m², a Biblioteca Central da universidade possui 722 assentos para estudo individual ou em grupo.
+                      Seu sistema é informatizado e integrado com os demais sistemas da Universidade. São mais de 95 mil títulos, em um total de mais de 317 mil documentos/obras nas áreas de ciências jurídicas, tecnológicas, da saúde, da comunicação e gestão.
+                      O vasto acervo é composto por livros, teses, dissertações, anais, vídeos analógicos e digitais, além de periódicos, que subsidiam de forma completa a busca por informações para auxiliar na sua formação.</p>
+
+                    <div class="columns is-centered" style="padding: 2rem">
+                        <div class="column">
+                            <div class="card">
+                                <div class="card-image">
+                                    <figure class="image is-2by1">
+                                        <img src="/assets/img/galeria-biblioteca-unifor-foto-1.jpg" alt="Biblioteca UNIFOR">
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card is-fullwidth">
+            <header class="card-header">
+              <p class="card-header-title">Complexo Esportivo</p>
+              <a class="card-header-icon card-toggle">
+                <i class="fa fa-angle-down"></i>
+              </a>
+            </header>
+            <div class="card-content is-hidden">
+              <div class="content">
+                <p><b>Esporte é na Unifor!</b></br>
+                    Se além de estudar em uma universidade de excelência você também deseja incluir o esporte na sua vida, seja para manter a forma ou virar atleta em alguma modalidade, a Unifor é o seu lugar. Aqui, você conta com uma estrutura ampla e completa para a prática esportiva.
+                    Com <b>5 mil m² de área</b>, o Parque Desportivo da Unifor <b>é um dos mais modernos do país</b> e abriga diversos equipamentos. Entre eles, <b>Ginásio Poliesportivo, piscina semiolímpica, quadras de tênis, campo de futebol oficial, campo de futebol society, Academia e o Estádio de Atletismo</b>, que recebe eventos nacionais e internacionais e é certificado pela Confederação Brasileira de Atletismo (CBAt).
+                    Na Unifor, você alia momentos de aprendizagem, lazer e saúde por meio dos projetos que incentivam o esporte como base para a vida pessoal e profissional. A Universidade também sedia projetos sociais, revela novos talentos e dá suporte a atletas de alto nível que representam a instituição em competições nacionais e internacionais.</p>
+
+                    <div class="columns is-centered" style="padding: 2rem">
+                        <div class="column">
+                            <div class="card">
+                                <div class="card-image">
+                                    <figure class="image is-2by1">
+                                        <img src="/assets/img/galeria-complexo-esportivo-foto-4.jpg" alt="Complexo Esportivo UNIFOR">
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card is-fullwidth">
+              <header class="card-header">
+                <p class="card-header-title">Escritório EducationUSA/UNIFOR</p>
+                <a class="card-header-icon card-toggle">
+                  <i class="fa fa-angle-down"></i>
+                </a>
+              </header>
+              <div class="card-content is-hidden">
+                <div class="content">
+                  <p>Se você quer estudar nos Estados Unidos, conheça o Escritório EducationUSA/UNIFOR. Nele, você terá informações precisas, imparciais e atualizadas sobre oportunidades de estudo nos Estados Unidos, incluindo orientação sobre o processo de aplicação e admissão em programas de graduação, mestrado, doutorado, cursos de inglês e cursos de curta duração.
+	                  Os centros de orientação EducationUSA fazem parte de uma rede do governo americano composta por mais de 400 escritórios a nível mundial e 33 escritórios no Brasil, sendo que 12 estão localizados em universidades e 21 em centros binacionais. Os escritórios seguem os padrões de ética do EducationUSA, que são avaliados pela Coordenação Regional do EducationUSA no Cone Sul (REAC).
+	                  De forma individual ou em grupo, o EducationUSA/Unifor orienta você sobre estudos nos Estados Unidos. As orientações seguem a metodologia <b><a href="https://educationusa.state.gov/your-5-steps-us-study">“5 Passos para estudar nos EUA”</a></b>, que abrange desde a escolha de universidades até a ida para os Estados Unidos.
+	                  O Escritório EducationUSA/UNIFOR também promove palestras informativas com representantes de universidades americanas, realiza workshops e grupos de estudo sobre temas específicos com a participação de instituições parceiras e convidados, organiza e participa de feiras educacionais e estudantis, divulgação de bolsas de estudo e ajuda financeira.
+	                  Agende um horário e conheça o escritório!</p>
+
+	                <div class="columns is-centered" style="padding: 2rem">
+		                <div class="column">
+			                <div class="card">
+				                <div class="card-image">
+					                <figure class="image is-2by1">
+						                <img src="/assets/img/galeria-escritorio-education-usa-foto-7.jpg" alt="Escritório EducationUSA/UNIFOR">
+					                </figure>
+				                </div>
+			                </div>
+		                </div>
+	                </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </section>
+
+      <section class="section">
         <div class="container has-text-centered">
-            <h2 class="title">Tour Dates</h2>
+            <h1 class="title">CONHEÇA OS NÚCLEOS DE PRÁTICAS ACADÊMICAS DA UNIFOR</h1>
 
             <div class="tile is-ancestor">
                 <div class="tile is-parent">
                     <article class="tile is-child box">
-                        <figure class="image">
-                            <img src="https://images.pexels.com/photos/374710/pexels-photo-374710.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
-                        </figure>
-                        <p class="title">New York</p>
-                        <p class="subtitle">Fri 27 Nov 2016</p>
-                        <a class="button">Buy Tickets</a>
+	                    <a href="https://unifor.br/web/guest/epj">
+		                    <figure class="image">
+			                    <img src="/assets/img/card-EPJ.jpg">
+		                    </figure>
+		                    <p class="title">Escritório de Prática Jurídica (EPJ)</p>
+	                    </a>
                     </article>
                 </div>
                 <div class="tile is-parent">
                     <article class="tile is-child box">
-                        <figure class="image">
-                            <img src="https://images.pexels.com/photos/374710/pexels-photo-374710.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
-                        </figure>
-                        <p class="title">New York</p>
-                        <p class="subtitle">Fri 27 Nov 2016</p>
-                        <a class="button">Buy Tickets</a>
+	                    <a href="https://unifor.br/web/guest/nami">
+		                    <figure class="image">
+			                    <img src="/assets/img/card-nami.jpg">
+		                    </figure>
+		                    <p class="title">Núcleo de Atenção Médica Integrada (NAMI)</p>
+	                    </a>
                     </article>
                 </div>
                 <div class="tile is-parent">
                     <article class="tile is-child box">
-                        <figure class="image">
-                            <img src="https://images.pexels.com/photos/374710/pexels-photo-374710.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
-                        </figure>
-                        <p class="title">New York</p>
-                        <p class="subtitle">Fri 27 Nov 2016</p>
-                        <a class="button">Buy Tickets</a>
+	                    <a href="https://unifor.br/web/guest/clinicas-odontologicas">
+		                    <figure class="image">
+			                    <img src="/assets/img/card-clinicas-odontologicas-novo.jpg">
+		                    </figure>
+		                    <p class="title">Clínicas Odontológicas</p>
+	                    </a>
                     </article>
                 </div>
                 <div class="tile is-parent">
                     <article class="tile is-child box">
-                        <figure class="image">
-                            <img src="https://images.pexels.com/photos/374710/pexels-photo-374710.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
-                        </figure>
-                        <p class="title">New York</p>
-                        <p class="subtitle">Fri 27 Nov 2016</p>
-                        <a class="button">Buy Tickets</a>
-                    </article>
-                </div>
-                <div class="tile is-parent">
-                    <article class="tile is-child box">
-                        <figure class="image">
-                            <img src="https://images.pexels.com/photos/374710/pexels-photo-374710.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
-                        </figure>
-                        <p class="title">New York</p>
-                        <p class="subtitle">Fri 27 Nov 2016</p>
-                        <a class="button">Buy Tickets</a>
+	                    <a href="https://unifor.br/web/guest/nubex">
+		                    <figure class="image">
+			                    <img src="/assets/img/CARD-NUBEX.jpg">
+		                    </figure>
+		                    <p class="title">Núcleo de Biologia Experimental (NUBEX)</p>
+	                    </a>
                     </article>
                 </div>
             </div>
 
-            <div class="tile is-ancestor">
+	        <div class="tile is-ancestor">
+		        <div class="tile is-parent">
+			        <article class="tile is-child box">
+				        <a href="https://unifor.br/web/guest/eges">
+					        <figure class="image">
+						        <img src="/assets/img/card-eges.jpg">
+					        </figure>
+					        <p class="title">Escritório de Gestão, Empreendedorismo e Sustentabilidade (EGES)</p>
+				        </a>
+			        </article>
+		        </div>
+		        <div class="tile is-parent">
+			        <article class="tile is-child box">
+				        <a href="https://unifor.br/web/guest/nead">
+					        <figure class="image">
+						        <img src="/assets/img/CARD-nead.jpg">
+					        </figure>
+					        <p class="title">Núcleo de Educação à Distância (NEaD)</p>
+				        </a>
+			        </article>
+		        </div>
                 <div class="tile is-parent">
                     <article class="tile is-child box">
-                        <figure class="image">
-                            <img src="https://images.pexels.com/photos/374710/pexels-photo-374710.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
-                        </figure>
-                        <p class="title">New York</p>
-                        <p class="subtitle">Fri 27 Nov 2016</p>
-                        <a class="button">Buy Tickets</a>
+	                    <a href="https://unifor.br/web/guest/nupex">
+		                    <figure class="image">
+			                    <img src="/assets/img/card-comercio-exterior.jpg">
+		                    </figure>
+		                    <p class="title">Núcleo de Práticas em Comércio Exterior (NUPEX)</p>
+	                    </a>
                     </article>
                 </div>
                 <div class="tile is-parent">
                     <article class="tile is-child box">
-                        <figure class="image">
-                            <img src="https://images.pexels.com/photos/374710/pexels-photo-374710.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
-                        </figure>
-                        <p class="title">New York</p>
-                        <p class="subtitle">Fri 27 Nov 2016</p>
-                        <a class="button">Buy Tickets</a>
-                    </article>
-                </div>
-                <div class="tile is-parent">
-                    <article class="tile is-child box">
-                        <figure class="image">
-                            <img src="https://images.pexels.com/photos/374710/pexels-photo-374710.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
-                        </figure>
-                        <p class="title">New York</p>
-                        <p class="subtitle">Fri 27 Nov 2016</p>
-                        <a class="button">Buy Tickets</a>
-                    </article>
-                </div>
-                <div class="tile is-parent">
-                    <article class="tile is-child box">
-                        <figure class="image">
-                            <img src="https://images.pexels.com/photos/374710/pexels-photo-374710.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
-                        </figure>
-                        <p class="title">New York</p>
-                        <p class="subtitle">Fri 27 Nov 2016</p>
-                        <a class="button">Buy Tickets</a>
-                    </article>
-                </div>
-                <div class="tile is-parent">
-                    <article class="tile is-child box">
-                        <figure class="image">
-                            <img src="https://images.pexels.com/photos/374710/pexels-photo-374710.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
-                        </figure>
-                        <p class="title">New York</p>
-                        <p class="subtitle">Fri 27 Nov 2016</p>
-                        <a class="button">Buy Tickets</a>
+	                    <a href="https://unifor.br/web/guest/nupe">
+		                    <figure class="image">
+			                    <img src="/assets/img/card-nupe.jpg">
+		                    </figure>
+		                    <p class="title">Núcleo de Práticas em Economia (NUPE)</p>
+	                    </a>
                     </article>
                 </div>
             </div>
+	        <div class="tile is-ancestor">
+		        <div class="tile is-parent">
+			        <article class="tile is-child box">
+				        <a href="https://unifor.br/web/guest/nic">
+					        <figure class="image">
+						        <img src="/assets/img/card-nic.jpg">
+					        </figure>
+					        <p class="title">Núcleo Integrado de Comunicação (NIC)</p>
+				        </a>
+			        </article>
+		        </div>
+		        <div class="tile is-parent">
+			        <article class="tile is-child box">
+				        <a href="https://unifor.br/web/guest/nei">
+					        <figure class="image">
+						        <img src="/assets/img/NEI-novo-card.jpg">
+					        </figure>
+					        <p class="title">Núcleo de Estudos Internacionais (NEI)</p>
+				        </a>
+			        </article>
+		        </div>
+		        <div class="tile is-parent">
+			        <article class="tile is-child box">
+				        <a href="https://unifor.br/web/guest/naf">
+					        <figure class="image">
+						        <img src="/assets/img/card.jpg">
+					        </figure>
+					        <p class="title">Núcleo de Apoio Contábil e Fiscal (NAF)</p>
+				        </a>
+			        </article>
+		        </div>
+		        <div class="tile is-parent">
+			        <article class="tile is-child box">
+				        <a href="https://www.unifor.br/web/nati?_ga=2.10218423.342778454.1550543227-1544683694.1550190901">
+					        <figure class="image">
+						        <img src="/assets/img/lab_formação_e_integração_6.png">
+					        </figure>
+					        <p class="title">Núcleo de Aplicação em Tecnologia da Informação (NATI)</p>
+				        </a>
+			        </article>
+		        </div>
+	        </div>
         </div>
     </section>
 
     <section class="section">
         <div class="container has-text-centered">
-            <h2 class="title">Contact</h2>
+            <h2 class="title">Fale Conosco</h2>
 
             <form>
                 <div class="field is-horizontal">
                     <div class="field-body">
                         <div class="field">
                             <p class="control has-icons-left">
-                                <input class="input" type="text" placeholder="Name">
+                                <input class="input" type="text" placeholder="Nome">
                                 <span class="icon is-small is-left">
                                     <i class="fas fa-user"></i>
                                 </span>
@@ -246,7 +357,7 @@
                     <div class="field-body">
                         <div class="field">
                             <div class="control">
-                                <textarea class="textarea" placeholder="Message us"></textarea>
+                                <textarea class="textarea" placeholder="Nos mande uma mensagem"></textarea>
                             </div>
                         </div>
                     </div>
@@ -256,8 +367,8 @@
                     <div class="field-body">
                         <div class="field">
                             <div class="control">
-                                <button class="button is-primary">
-                                    Send message
+                                <button class="button is-link">
+                                    Enviar mensagem
                                 </button>
                             </div>
                         </div>
@@ -271,17 +382,20 @@
         <div class="container">
             <div class="content has-text-centered">
                 <p>
-                    <a href="">
+                    <a href="https://www.facebook.com/uniforoficial/">
                         <i class="fab fa-facebook-square fa-2x"></i>
                     </a>
-                    <a href="">
+                    <a href="https://twitter.com/uniforoficial">
                         <i class="fab fa-twitter-square fa-2x"></i>
                     </a>
-                    <a href="">
+                    <a href="https://www.instagram.com/uniforcomunica/">
                         <i class="fab fa-instagram fa-2x"></i>
                     </a>
-                    <a href="">
-                        <i class="fab fa-snapchat fa-2x"></i>
+                    <a href="https://www.youtube.com/user/uniforcomunica">
+                        <i class="fab fa-youtube fa-2x"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/school/university-of-fortaleza/">
+                        <i class="fab fa-linkedin fa-2x"></i>
                     </a>
                 </p>
                 <p>
